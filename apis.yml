@@ -1,4 +1,16 @@
 aid: tbh
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tbh.png
 name: tbh
 description: tbh is a company surfaced as a portfolio company of techstars, version-one-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -25,3 +37,12 @@ maintainers:
 common:
 - type: Website
   url: https://tbhtime.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: tbhtime.com is registered but has no DNS/A records and does not resolve; no
+    live website, no reachable API surface, no OpenAPI in repo. WebSearch budget was
+    exhausted this session. DNS/whois/curl/domain-security probe all completed and
+    confirm no surface to enrich.
